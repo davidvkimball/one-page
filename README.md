@@ -1,4 +1,4 @@
-Demo: https://john-doe.neocities.org/
+Demo: [1.dvdv.kim](http://1.dvdv.kim/)
 
 A website in a single HTML file. It simply uses the `#anchor` suffix and the `:target` CSS selector to show and hide pages/content.
 
@@ -12,3 +12,4 @@ Then you could add a link to it inside `<nav>`:
 ```html
 <a href="#contact">Contact</a>
 ```
+Credits: Forked from [here](https://github.com/cadars/john-doe). 
