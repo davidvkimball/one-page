@@ -1,0 +1,22 @@
+# Redirects
+
+# one-page-site-placeholder.netlify.app* https://david.qa/:splat 301!
+
+/404.html                /
+/404                     /
+
+/blog                    https://davidvkimball.com/
+/social                  https://davidvkimball.com/social/
+/profiles                https://davidvkimball.com/social/
+/subscribe               https:///davidvkimball.com/subscribe/
+/contact                 https://davidvkimball.com/contact/
+/gamertag                https://davidvkimball.com/social/
+/pc                      https://kit.co/davidvkimball
+/book                    https://www.amazon.com/dp/B010RZVYM0
+/discord                 https://discord.gg/gyrNHAwHK8
+/merch                   https://merch.davidvkimball.com/
+/vods                    https://youtube.com/davidvBonus
+/cal                     https://cal.com/davidvkimball
+/animelee-m-ex-template  https://ssbmtextures.com/other-mod-types/animelee-m-ex-template/
+/jesus                   https://davidvkimball.neocities.org/jesus
+/pay 					 https://checkya.com/davidvkimball
