@@ -432,6 +432,35 @@ article time {
   z-index: 4;
 }
 
+/* ------- Longer page fix ------- */
+
+section {
+  display: none;
+}
+
+section:target, #home {
+  display: block;
+}
+
+section:target ~ #home {
+  display: none;
+}
+
+/* Keep this rule for scroll position issues */
+section {
+  scroll-margin-top: 100vh;
+}
+
+section {
+  padding: calc(6em + 5vw) 5vw 8vw 5vw;
+  position: absolute;
+  top: 0;
+  min-height: 100vh;
+  width: 100%;
+  background: var(--bgcolor);
+}
+
+
 /* ------- Smaller screens ------- */
 
 @media only screen and (max-width: 680px) {
