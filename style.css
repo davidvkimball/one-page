@@ -93,7 +93,7 @@ h2, h3, h4 {
 }
 
 p, ul, ol, article {
-  max-width: 60ch; /* Limit line-length to 60 characters */
+  /* max-width: 60ch;  Limit line-length to 60 characters */
   margin-bottom: .6em;
 }
 
@@ -458,6 +458,27 @@ section {
   min-height: 100vh;
   width: 100%;
   background: var(--bgcolor);
+}
+
+/* ------- Scroll bar ------- */
+
+* {
+  /* Standard syntax */
+  scrollbar-color: var(--highlight) #e0e0e000;
+  scrollbar-width: none;
+
+  /* WebKit syntax */
+  &::-webkit-scrollbar {
+    width: 8px;
+  }
+  &::-webkit-scrollbar-track {
+    background: #e0e0e000;
+  }
+  &::-webkit-scrollbar-thumb {
+    background-color: var(--highlight);
+    border-radius: 20px;
+    border: 3px solid #e0e0e000;
+  }
 }
 
 
