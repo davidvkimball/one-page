@@ -30,7 +30,7 @@ body {
 /* ------- Sections ------- */
 
 section {
-  padding: calc(6em + 5vw) 5vw 8vw 5vw;
+  padding: calc(4em + 3vw) 5vw 6vw 5vw;
   /* ! Everything below is needed ! */
   display: none;
   position: absolute;
@@ -61,7 +61,7 @@ header {
 
 header h1 {
   font-size: 1em;
-  flex: 1; /* pushes nav to the right */
+  /* flex: 1;*/ /* pushes nav to the right */ 
   white-space: nowrap;
   padding: 0 5vw .5em 0;
 }
@@ -452,7 +452,7 @@ section {
 }
 
 section {
-  padding: calc(6em + 5vw) 5vw 8vw 5vw;
+  padding: calc(4em + 3vw) 5vw 6vw 5vw;
   position: absolute;
   top: 0;
   min-height: 100vh;
